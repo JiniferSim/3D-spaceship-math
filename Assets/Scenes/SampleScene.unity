@@ -402,9 +402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  frequency: 1
-  tilte: 30
-  rotationSpeed: 3
+  rotationSpeed: 20
 --- !u!4 &1257294725 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7005195364919929612, guid: 10f2c891d45bbe9448550442e7192ac8, type: 3}
