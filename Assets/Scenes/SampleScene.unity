@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FollowSpeed: 2
-  target: {fileID: 0}
+  target: {fileID: 1859200567}
 --- !u!1 &1350159981
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,6 +613,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   rotationSpeed: 5
+--- !u!4 &1859200567 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8743893212899752761, guid: d1ff16837863c9f4c8b78a5697ebf086, type: 3}
+  m_PrefabInstance: {fileID: 1859200562}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
