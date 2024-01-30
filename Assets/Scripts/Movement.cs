@@ -7,7 +7,6 @@ public class Movement : MonoBehaviour
 {
     public float speed = 5f;
     public float rotationSpeed = 3f;
-    //public float verticalRotationSpeed = 30f;
 
     private Quaternion zQuater;
     private Quaternion yQuater;
@@ -23,8 +22,8 @@ public class Movement : MonoBehaviour
         yQuater = new Quaternion(0f, Mathf.Sin(turnInput * rotationSpeed * Time.deltaTime / 2), 0f, Mathf.Cos(turnInput * rotationSpeed * Time.deltaTime / 2));
         transform.rotation *= yQuater;
 
-        Quaternion currentRotation = transform.rotation;
-        Quaternion newXRotation = new Quaternion(0f, currentRotation.y, currentRotation.z, currentRotation.w);
-        transform.rotation = newXRotation;
+        //Quaternion currentRotation = transform.rotation;
+        //Quaternion newXRotation = new Quaternion(0f, currentRotation.y, currentRotation.z, currentRotation.w);
+        //transform.rotation = newXRotation;
     }
 }
