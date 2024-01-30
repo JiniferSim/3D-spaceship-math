@@ -14,11 +14,7 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        //float verticalInput = Input.GetAxis("Vertical");
-        //float verticalRotationAmount = verticalInput * verticalRotationSpeed * Time.deltaTime;
-        //transform.Rotate(Vector3.right, verticalRotationAmount);
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
-
         float turnInput = Input.GetAxis("Horizontal");
 
         zQuater = new Quaternion(0f, 0f, Mathf.Sin(turnInput * rotationSpeed * Time.deltaTime / 2), Mathf.Cos(turnInput * rotationSpeed * Time.deltaTime / 2));
